@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "github-connector"
+version = "0.1.0"
+description = "A resilient Python library for interacting with the GitHub API"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "github_connector"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
