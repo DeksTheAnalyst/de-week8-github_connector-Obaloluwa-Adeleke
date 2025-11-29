@@ -168,3 +168,5 @@ Comprehensive logging (INFO/WARNING/ERROR)
 Type hints and docstrings  
 Poetry dependency management  
 Unit tests with mocked responses  
+
+Packaged by Obaloluwa Adeleke
